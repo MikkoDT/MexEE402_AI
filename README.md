@@ -37,7 +37,8 @@ PPT Link: https://github.com/MikkoDT/MexEE402_AI/blob/main/Machine_Learnng/Intro
 
 <img src="https://github.com/user-attachments/assets/ec372cda-e71d-4489-b46b-f3e85ec43d24" alt="Image Description" width="900" height="700">
 
-<img src="https://github.com/user-attachments/assets/8b109047-61f7-407a-b2b4-31711642a8dd" alt="Image Description" width="900" height="700">
+<img src="https://github.com/user-attachments/assets/5ae785c9-8d30-4584-9997-a865748bba5c" alt="Image Description" width="900" height="700">
+
 
 
 
