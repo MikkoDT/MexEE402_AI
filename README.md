@@ -35,3 +35,6 @@
 ## Part 1: Machine Learning 
 PPT Link: https://github.com/MikkoDT/MexEE402_AI/blob/main/Machine_Learnng/Introduction%20to%20ML.pptx
 
+![image](https://github.com/user-attachments/assets/2e72b67c-fbd3-49c2-b526-e4904ce0819b)
+
+
