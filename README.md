@@ -30,7 +30,7 @@
 
 •	Machine Learning as a subset of AI: Machine learning is a core part of AI, focusing specifically on algorithms that allow computers to learn from and make decisions based on data. AI includes machine learning but also encompasses other technologies that enable machines to perform tasks that would normally require human intelligence.
 
-•	AI as the broader goal: AI represents the broader goal of creating intelligent machines. Machine learning is a means towards achieving AI by providing systems the ability to automatically learn and improve from experience. Data analysis techniques can be used within machine learning to understand and preprocess the data fed into these systems
+•	AI as the broader goal: AI represents the broader goal of creating intelligent machines. Machine learning is a means towards achieving AI by providing systems the ability to automatically learn and improve from experience. Data analysis techniques can be used within machine learning to understand and preprocess the data fed into these systems.
 
 ## Part 1: Machine Learning 
 PPT Link: https://github.com/MikkoDT/MexEE402_AI/blob/main/Machine_Learnng/Introduction%20to%20ML.pptx
