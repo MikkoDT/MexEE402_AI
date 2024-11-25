@@ -1,3 +1,3 @@
-## **The Materials
+## **The Materials**
 
 # Introduction to Machine Vision
