@@ -35,4 +35,52 @@
 
 ![image](https://github.com/user-attachments/assets/0ebb01c3-c4e7-42f1-aee5-0c51c619fcfb)
 
+![image](https://github.com/user-attachments/assets/29056697-5c7f-4593-955b-e053c9f400a2)
 
+![image](https://github.com/user-attachments/assets/e7d57884-15dc-4ce1-85d8-413d3da4da00)
+
+# YOLO v8
+
+![image](https://github.com/user-attachments/assets/605cc9ff-9b44-4ae6-a279-4d8cea478e72)
+
+![image](https://github.com/user-attachments/assets/75158312-b927-4742-b212-a0a1f63031e8)
+
+![image](https://github.com/user-attachments/assets/3053a975-e32c-4c1c-a9a2-29563a05e20d)
+
+![image](https://github.com/user-attachments/assets/3f17a4f6-e2b3-4b31-b297-80973d0c69a1)
+
+![image](https://github.com/user-attachments/assets/64e5f65a-289e-413f-8d07-6e52c9c236be)
+
+# YOLOv8 Object Detection with Python
+
+YOLOv8 Object Detection with Python
+YOLOv8 models are fast, accurate, and easy to use, making them ideal for real-time object detection task trained on large datasets and run on diverse hardware platforms, from CPUs to GPUs. Object detection involves identifying the location and class of objects in an image or video stream. The output is a set of bounding boxes that enclose the objects in the image, along with class labels and confidence scores for each box. Object detection is a perfect choice when you need to detect and identify objects of interest, but don’t need to know exactly where the object is or its exact shape.
+
+YOLOv8 detection models have no suffix and are the default YOLOv8 models, i.e. (yolov8n.pt, yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt) and are pretrained on COCO dataset with the following Classes.
+
+['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+
+YOLOv8 pretrained Detect models (nano, small, medium, large and extra large based on number of parameters) are shown in the table below:
+
+![image](https://github.com/user-attachments/assets/80f4ab42-21f1-4793-9243-d43a48c87e2a)
+
+## Setup UltraLytics for YOLOv8
+
+%pip install ultralytics
+import ultralytics
+ultralytics.checks()
+
+Load YOLOv8 for Object Detection
+from ultralytics import YOLO
+ 
+## Load a model
+**# You can use different YOLOv8 variants (yolov8n, yolov8s, yolov8m, yolov8l, yolov8nx)**
+model = YOLO('yolov8n.pt')  # load a pretrained model
+ 
+# Use the model
+results = model('https://ultralytics.com/images/zidane.jpg')  # predict on an image
+# Save the output image after detection 
+results[0].save('/content/output.jpg')
+# Print the COCO dataset classes on which model is trained.
+print(model.names.values())
+Input Image
