@@ -67,20 +67,48 @@ YOLOv8 pretrained Detect models (nano, small, medium, large and extra large base
 ## Setup UltraLytics for YOLOv8
 
 %pip install ultralytics
+
 import ultralytics
+
 ultralytics.checks()
 
-Load YOLOv8 for Object Detection
+## Load YOLOv8 for Object Detection
 from ultralytics import YOLO
  
-## Load a model
+**# Load a model**
 **# You can use different YOLOv8 variants (yolov8n, yolov8s, yolov8m, yolov8l, yolov8nx)**
+
 model = YOLO('yolov8n.pt')  # load a pretrained model
  
-# Use the model
+**# Use the model**
+
 results = model('https://ultralytics.com/images/zidane.jpg')  # predict on an image
-# Save the output image after detection 
+
+**# Save the output image after detection** 
 results[0].save('/content/output.jpg')
-# Print the COCO dataset classes on which model is trained.
+
+**# Print the COCO dataset classes on which model is trained.**
 print(model.names.values())
-Input Image
+
+### Input Image
+![image](https://github.com/user-attachments/assets/87091664-8cec-47d4-9910-cabee212eff1)
+
+## Display the Output Image after Detection
+
+from IPython.display import Image
+ 
+**# Display the image**
+
+Image(filename='/content/output.jpg')
+
+### *Output Predicted Image*
+
+![image](https://github.com/user-attachments/assets/6aae0cbd-d926-490e-8148-77a49d8f8644)
+
+### Print Bounding Boxes Information
+
+for r in results:
+
+    print(r.boxes)
+
+![image](https://github.com/user-attachments/assets/d75b4c3e-dd52-4fd9-a87d-437f45a89a4a)
