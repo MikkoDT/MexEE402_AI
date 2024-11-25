@@ -20,3 +20,14 @@
 ![image](https://github.com/user-attachments/assets/dd7d3b7d-c920-4c25-9d93-69577dcbd3fd)
 
 # How YOLO works?
+
+![image](https://github.com/user-attachments/assets/8ce9bbfd-5e6e-4e62-99b3-df51a38b9697)
+
+![image](https://github.com/user-attachments/assets/dbddff0d-de32-4d19-b54b-9c1776be6a89)
+
+![image](https://github.com/user-attachments/assets/b774ea96-8f2d-4468-a927-44582e08a564)
+
+![image](https://github.com/user-attachments/assets/70ebd056-58e1-4808-9b37-279db47acf07)
+
+
+
