@@ -27,7 +27,7 @@ import ultralytics
 ultralytics.checks()    
 
 
-# YOLO8 Training HyperParameters
+### YOLO8 Training HyperParameters
 
 """
  
@@ -49,3 +49,29 @@ project= project traing results saving path
  
 name= experiment name
 """
+
+# Training YOLOv8 for Player, Referee and Football Detection
+
+### Training YOLO8 for Object Detection
+
+In the provided code, the backslash ('\') is used to continue the command onto the next line for better readability. This is called line continuation.
+
+In Python, a backslash at the end of a line indicates that the command continues on the next line. It's commonly used when a single line of code becomes too long and you want to split it into multiple lines for improved readability.
+
+!yolo task=detect \
+
+    mode=train \
+    
+    model=yolov8n.pt \
+    
+data=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/dataset.yaml \
+
+    epochs=10 \
+    
+    imgsz=1920 \
+    
+    batch=5 \
+    
+project=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingResults \
+
+name=footballDetection
