@@ -59,20 +59,48 @@ In the provided code, the backslash ('\') is used to continue the command onto t
 In Python, a backslash at the end of a line indicates that the command continues on the next line. It's commonly used when a single line of code becomes too long and you want to split it into multiple lines for improved readability.
 ```
 !yolo task=detect \
-
-    mode=train \
-    
-    model=yolov8n.pt \
-    
+    mode=train \    
+    model=yolov8n.pt \   
 data=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/dataset.yaml \
-
-    epochs=10 \
-    
-    imgsz=1920 \
-    
-    batch=5 \
-    
+    epochs=10 \    
+    imgsz=1920 \    
+    batch=5 \    
 project=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingResults \
-
     name=footballDetection
+```
+
+# Testing YOLOv8 on Videos and Images
+
+# Inference using trained YOLO8
+
+### Prediction to Detect the Test Images
+```
+!yolo task=detect \
+    mode=predict \
+    model=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingResults/footballDetection3/weights/best.pt \
+    conf=0.55 \
+source=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/Dataset/test/images
+```
+
+### Transfer the predict folder to DetectionResults folder
+```
+!cp -r /content/runs/detect/predict
+
+/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/DetectionResults/
+```
+
+### Prediction on Vidoes to Detect Objects
+```
+!yolo task=detect \
+    mode=predict \
+    model=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingResults/footballDetection3/weights/best.pt \
+    conf=0.75 \
+source=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TestVideos
+```
+
+### Transfer the predict2 folder to DetectionResults folder
+```
+!cp -r /content/runs/detect/predict2
+
+/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/DetectionResults/
 ```
