@@ -11,7 +11,6 @@
 ### Connect with Google Drive
 ```
 from google.colab import drive
-
 drive.mount('/content/drive')
 ```
 
@@ -22,12 +21,11 @@ drive.mount('/content/drive')
 ### Install YOLOv8
 
 ### Pip install (recommended)
+```
 !pip install ultralytics
- 
 import ultralytics
-
 ultralytics.checks()    
-
+```
 
 ### YOLO8 Training HyperParameters
 
@@ -59,7 +57,7 @@ name= experiment name
 In the provided code, the backslash ('\') is used to continue the command onto the next line for better readability. This is called line continuation.
 
 In Python, a backslash at the end of a line indicates that the command continues on the next line. It's commonly used when a single line of code becomes too long and you want to split it into multiple lines for improved readability.
-
+```
 !yolo task=detect \
 
     mode=train \
@@ -76,4 +74,5 @@ data=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/dataset.yaml
     
 project=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingResults \
 
-name=footballDetection
+    name=footballDetection
+```
