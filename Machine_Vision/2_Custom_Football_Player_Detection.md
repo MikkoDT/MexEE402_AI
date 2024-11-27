@@ -1,6 +1,6 @@
 # Custom Football Player Detection Dataset
-[![For Testing](![image](https://github.com/user-attachments/assets/c576687e-146a-4355-9646-710cdce63fd6)
-)](https://youtu.be/EkU5iTy_wiU)
+
+https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
 
 ## Football Dataset and Test Videos
 [Football Player Detection Dataset](https://drive.google.com/drive/folders/1ltpD_EkmHnhU6i4KqR_Jypv9zpidQMLn?usp=sharing)
