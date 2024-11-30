@@ -1,15 +1,11 @@
 # Custom Football Player Detection Dataset
 
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
-
 ## Football Dataset and Test Videos
 [Football Player Detection Dataset](https://drive.google.com/drive/folders/1ltpD_EkmHnhU6i4KqR_Jypv9zpidQMLn?usp=sharing)
 
 [Test Videos Match](https://drive.google.com/drive/folders/1SNUDDHVCw9xNunSelTQ0y1w93fFaEoHa?usp=sharing)
 
 # Connect Google Colab with Google Drive to Read and Write
-
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
 
 ***Python Code***
 ### Connect with Google Drive
@@ -19,8 +15,6 @@ drive.mount('/content/drive')
 ```
 
 # YOLOv8: Video Object Detection with Python on Custom Dataset
-
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
 
 ***Python Code***
 
@@ -58,8 +52,6 @@ name= experiment name
 
 # Training YOLOv8 for Player, Referee and Football Detection
 
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
-
 ### Training YOLO8 for Object Detection
 
 In the provided code, the backslash ('\') is used to continue the command onto the next line for better readability. This is called line continuation.
@@ -79,11 +71,7 @@ project=/content/drive/MyDrive/ObjectDetection/FootballPlayerDetection/TrainingR
 
 # Testing YOLOv8 on Videos and Images
 
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
-
 # Inference using trained YOLO8
-
-https://github.com/user-attachments/assets/0a4682bc-5b43-425c-a61b-940506faa27d
 
 ### Prediction to Detect the Test Images
 ```
