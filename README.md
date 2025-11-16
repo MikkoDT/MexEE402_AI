@@ -33,7 +33,7 @@
 •	AI as the broader goal: AI represents the broader goal of creating intelligent machines. Machine learning is a means towards achieving AI by providing systems the ability to automatically learn and improve from experience. Data analysis techniques can be used within machine learning to understand and preprocess the data fed into these systems
 
 ## Part 1: Machine Learning 
-PPT Link: https://github.com/MikkoDT/MexEE402_AI/blob/main/Machine_Learnng/Introduction%20to%20ML.pptx
+PPT Link: https://github.com/MikkoDT/MexEE402_AI/blob/main/Machine_Learning/Introduction%20to%20ML.pptx
 
 <img src="https://github.com/user-attachments/assets/ec372cda-e71d-4489-b46b-f3e85ec43d24" alt="Image Description" width="900" height="400">
 
